@@ -13,15 +13,16 @@
 <body>
     <!-- HEADER -->
     <header class="header">
+    <div class="container">   
         <nav class="navigation">
             <a class="logo-link link" href="./index.html"> 
                 <span class="logo-accent">Web</span><span class="logo">Studio</span>
             </a>
 
             <ul class="navigation-list list">
-                <li><a href="./index.html" class="navigation-list-link link current">Студия</a></li>
-                <li><a href="./portfolio.html" class="navigation-list-link link" >Портфолио</a></li>
-                <li><a href="" class="navigation-list-link link" >Контакты</a></li>
+                <li class="navigation-list-item"><a href="./index.html" class="navigation-list-link link current">Студия</a></li>
+                <li class="navigation-list-item"><a href="./portfolio.html" class="navigation-list-link link" >Портфолио</a></li>
+                <li class="navigation-list-item"><a href="" class="navigation-list-link link" >Контакты</a></li>
 
             </ul>
 
@@ -31,16 +32,23 @@
             <a class="header-email-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a class="header-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
+    </div>
     </header>
 
     <main>
         <!-- HERO -->
-        <section class="hero">
+    <section class="hero background">
+        <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="modal-btn" type="button">Заказать услугу</button>
-        </section>
+             <button class="modal-btn" type="button">Заказать услугу</button>
+         </div>
+    </section>
+     
+
         <!-- ADVANTAGES-->
-        <section>
+        
+    <section class="advantages-section">
+        <div class="container">
             <h2 class="advantages" hidden>Преимущества Веб-студии</h2>
             <ul class="advantages-list">
                  <li class="advantages-list-item list">
@@ -60,24 +68,29 @@
                      <p class="advantage-desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                  </li>
             </ul>
-        </section>
+        </div>
+    </section>
+        
         <!-- WORK -->
-        <section class="work">
+    <section class="work">
+        <div class="container">
             <h2 class="title">Чем мы занимаемся</h2>
             <ul class="work-list">
                 <li class="work-list-item list"> 
-                    <img  src="./images/work/working1.jpg" alt="Разработка десктопных приложений" width="370" height="294">
+                    <img src="./images/work/working1.jpg" alt="Разработка десктопных приложений" width="370" height="294">
                 </li>
                 <li class="work-list-item list"> 
-                    <img  src="./images/work/working2.jpg" alt="Разработка мобильных приложений" width="370" height="294">
+                    <img src="./images/work/working2.jpg" alt="Разработка мобильных приложений" width="370" height="294">
                 </li>
                 <li class="work-list-item list"> 
-                    <img  src="./images/work/working3.jpg" alt="Выбор дизайна" width="370" height="294">
+                    <img src="./images/work/working3.jpg" alt="Выбор дизайна" width="370" height="294">
                 </li>
             </ul>
-        </section>
+        </div>  
+    </section>
         <!-- TEAM -->
-        <section>
+    <section class="team">
+        <div class="container">
             <h2 class="title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-list-item list">
@@ -101,28 +114,31 @@
                     <p class="team-list-desc" lang="en">UI Designer</p>
                 </li>
             </ul>
-        </section>
+        </div>
+     </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
-        <a class="logo-link link" href="./index.html"> 
-            <span class="logo-accent">Web</span><span class="logo">Studio</span>
-        </a>
+    <footer class="footer background">
+        <div class="container">
+            <a class="logo-link link" href="./index.html"> 
+                <span class="logo-accent">Web</span><span class="logo">Studio</span>
+            </a>
         
-        <address class="address">
-            <ul class="address-list list">
-                <li>
-                    <p class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</p>
-                </li>
-                <li>
-                    <a class="footer-email-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="footer-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+            <address class="address">
+                <ul class="address-list list">
+                    <li class="footer-info">
+                        <p class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</p>
+                    </li>
+                    <li class="footer-info">
+                        <a class="footer-email-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-info">
+                        <a class="footer-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 
 </body>
