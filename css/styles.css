@@ -144,6 +144,8 @@ body {
 
 .hero {
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .background {
@@ -153,8 +155,6 @@ body {
 .hero .container {
     padding-left: 268px;
     padding-right: 268px;
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -199,7 +199,7 @@ body {
     margin-right: 30px;
 }
 
-.advantages-list {
+.advantages-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -262,7 +262,7 @@ margin-bottom: 94px;
     justify-content: center;
 }
 
-.team .container {
+.team {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -296,7 +296,7 @@ margin-bottom: 94px;
 
 /*============  PORTFOLIO  ============*/
 
-.portfolio .container {
+.portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
     
@@ -392,7 +392,7 @@ margin-bottom: 94px;
     color: #FFFFFF;
 }
 
-.footer .container {
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
