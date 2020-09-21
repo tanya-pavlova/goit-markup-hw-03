@@ -116,7 +116,7 @@ body {
     display: flex;
   }
 
-  .logo-main {
+  .logo-link {
       margin-right: 93px;
   }
 
@@ -153,7 +153,10 @@ body {
     background-color: #2F303A;
 }
 
-
+.hero .container {
+    width: 700px;
+    margin: 0 auto;
+}
 
 .hero-title {
     font-weight: 900;
@@ -180,10 +183,6 @@ body {
 
 }
         
-.hero-content {
- width: 700px;
- margin: 0 auto;
-}
 
 /*============  END HERO  ============*/
 
@@ -357,7 +356,10 @@ padding-bottom: 94px;
 }
 
 .project-caption {
-    border: 1px solid #EEEEEE;
+    border-right:1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    
 }
 
 .our-projects-list-item:not(:nth-child(3n)) {
@@ -375,8 +377,8 @@ padding-bottom: 94px;
 
 
 .our-projects-list-title {
-    margin-top: 20px;
     margin-bottom: 4px;
+    padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -419,6 +421,10 @@ padding-bottom: 94px;
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-address-text {
+    margin-bottom: 9px;  
 }
 
  .footer-info:not(:last-child) {
